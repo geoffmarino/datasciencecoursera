@@ -3,13 +3,14 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 For information on the experiment and the original analysis - access the link above.
 
-Finished Dataframes - 
+## Finished Dataframes 
+
 dt_5_finished -- Extracts mean and standard deviation measurements of the sensor readings. Data presented
 is wide but tidy, complete with descriptive variable names and variable element names where applicable.
 
 pt2 -- Provides an average measurement for each subject and activity.
 
-Variables -
+## Variables
 
 "subject"
   Class: numeric
