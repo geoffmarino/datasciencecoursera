@@ -3,7 +3,13 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 For information on the experiment and the original analysis - access the link above.
 
-Variables
+Finished Dataframes - 
+dt_5_finished -- Extracts mean and standard deviation measurements of the sensor readings. Data presented
+is long but tidy, complete with descriptive variable names and variable element names where applicable.
+
+pt2 -- Provides an average measurement for each subject and activity.
+
+Variables -
 
 "subject"
   Class: numeric
@@ -29,8 +35,8 @@ Sensor variables
   ("BodyAcc"), gravity acceleration ("GravityAcc"), linear acceleration ("BodyAccJerk"), gyroscope ("BodyGyro"),
   and angular velocity ("BodyGyroJerk").
   
-  After follows whether the variable is a mean ("mean()") or standard deviation ("standard deviation()") measurement, and then if the
-  variable is not a magnitude measurement, the axial direction of the movement (X, Y, Z) is specified.
+  After follows whether the variable is a mean ("mean()") or standard deviation ("standard deviation()") measurement, 
+  and then if the variable is not a magnitude measurement, the axial direction of the movement (X, Y, Z) is specified.
 
 "time.body_acceleration-mean()-X_axial_direction"                          
 "time.body_acceleration-mean()-Y_axial_direction"                          
