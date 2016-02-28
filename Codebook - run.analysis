@@ -5,7 +5,7 @@ For information on the experiment and the original analysis - access the link ab
 
 Finished Dataframes - 
 dt_5_finished -- Extracts mean and standard deviation measurements of the sensor readings. Data presented
-is long but tidy, complete with descriptive variable names and variable element names where applicable.
+is wide but tidy, complete with descriptive variable names and variable element names where applicable.
 
 pt2 -- Provides an average measurement for each subject and activity.
 
@@ -27,7 +27,7 @@ Variables -
     WALKING UPSTAIRS
 
 Sensor variables
-  Class: numeric
+  Class: numeric; See original data files for units.
   The remaining variables are readings from the subjects' phone accelerometer and gyrometer. All variable names are
   prefaced by their domain. "time" refers to time domain, while "frequency" refers to frequency domain.
   
@@ -104,5 +104,3 @@ Sensor variables
 "frequency.gyroscope.magnitude-standard_deviation()"                       
 "frequency.body_angular_velocity.magnitude-mean()"                         
 "frequency.body_angular_velocity.magnitude-standard_deviation()" 
-  
-  
